@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "IllegalKit"
+version = "0.1.0"
+description = "A hacker-vibe terminal toolkit for video/audio downloading and utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "yt-dlp",
+  "rich",
+  "questionary",
+]
+keywords = ["cli", "terminal", "video", "downloader", "yt-dlp", "rich"]
+authors = [
+  { name = "IllegalKit Contributor" },
+]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+illegalkit = "illegalkit.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["illegalkit*"]
