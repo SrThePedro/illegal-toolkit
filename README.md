@@ -31,20 +31,20 @@ To merge high-quality video/audio streams or extract MP3s properly, **FFmpeg** m
 ### Method 1: Direct Install (Recommended)
 Install IllegalKit globally directly from GitHub. This allows you to run the tool from anywhere in your terminal.
 
-\`\`\`bash
+```bash
 pip install git+https://github.com/SrThePedro/illegal-toolkit
-\`\`\`
+```
 
 ### Method 2: Local Install (For Developers)
 If you want to modify the code or contribute to the project:
 
-\`\`\`bash
+```bash
 git clone https://github.com/SrThePedro/illegal-toolkit
 cd illegalkit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -e .
-\`\`\`
+```
 
 ---
 
