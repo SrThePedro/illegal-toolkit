@@ -27,7 +27,7 @@ pip install .
 
 ### Install from GitHub
 ```bash
-pip install git+https://github.com/<username>/IllegalKit.git
+pip install git+https://github.com/SrThePedro/illegal-toolkit
 ```
 
 ## Project Structure
